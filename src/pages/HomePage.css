@@ -1,0 +1,36 @@
+.home-page {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+  }
+  
+.side-bar {
+  height: 100vh;
+  width: 8%;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 1%;
+}
+
+.sidebarEdit {
+  background-color: blue;
+  height: 100px;
+}
+.sidebarAdd {
+  background-color: aqua;
+  height: 100px;
+}
+.sidebarLock {
+  background-color: skyblue;
+}
+.sidebarMessages{
+  background-color: slateblue;
+}
+.sidebarLink{
+background-color: plum;
+}
+.sidebarProfile {
+  background-color: palevioletred;
+}
