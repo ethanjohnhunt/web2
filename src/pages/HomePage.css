@@ -3,34 +3,25 @@
     display: flex;
     flex-direction: row;
   }
+  .side-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f8f9fa;
+    height: 100vh;
+    width: 80px;
+  }
   
-.side-bar {
-  height: 100vh;
-  width: 8%;
-  background-color: grey;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-right: 1%;
-}
+  .sidebar-icon {
+    margin: 20px 0;
+    transition: transform 0.2s, color 0.3s;
+  }
+  
+  .sidebar-icon:hover {
+    transform: scale(1.1);
+    color: #007bff;
+  }
+  
 
-.sidebarEdit {
-  background-color: blue;
-  height: 100px;
-}
-.sidebarAdd {
-  background-color: aqua;
-  height: 100px;
-}
-.sidebarLock {
-  background-color: skyblue;
-}
-.sidebarMessages{
-  background-color: slateblue;
-}
-.sidebarLink{
-background-color: plum;
-}
-.sidebarProfile {
-  background-color: palevioletred;
-}
+  
